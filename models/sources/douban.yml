@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: douban
+    schema: public
+    tables:
+      - name: zhaoxuelu_comments
+        description: "Raw Douban comments scraped for Zhao Xue Lu"
+        columns:
+          - name: user_id
+            tests:
+              - not_null
+          - name: create_time
+            tests:
+              - not_null
