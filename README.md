@@ -31,4 +31,9 @@ Downstream
    ├── BI tools (Metabase / Superset)
    ├── Monitoring / alerting
    └── Further analytics
+```
 
+## Documentation
+
+This project uses `dbt docs` to provide model-level documentation and
+full lineage from raw sources to analytics marts.

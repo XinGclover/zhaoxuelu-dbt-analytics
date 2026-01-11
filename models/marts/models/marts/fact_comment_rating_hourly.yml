@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fact_comment_rating_hourly
+    description: "Hourly comment volume and low-rating ratio for Zhao Xue Lu"
+    columns:
+      - name: comment_hour
+        description: "Hour bucket based on comment creation time"
+
+      - name: total_comments
+        description: "Total number of comments in the given hour"
+
+      - name: low_rating_comments
+        description: "Number of comments with rating <= 2 in the given hour"
+
+      - name: low_rating_ratio
+        description: "Ratio of low-rating comments to total comments"
