@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: fact_comment_rating_hourly
+    description: "Hourly comment volume and low-rating ratio for Zhao Xue Lu"
+    columns:
+      - name: comment_hour
+        tests:
+          - not_null
